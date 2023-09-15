@@ -17,10 +17,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @RestController
 @RequestMapping("/api")
 public class ExternalServiceCaller {
-
-//	RestClient restClient = RestClient.create();
-	
-//	RestClient::create(RestTemplate);
 	
 	private final RestClient restClient;
 	
